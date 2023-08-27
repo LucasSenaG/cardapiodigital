@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('/img/Pos.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #c5c8a0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: aliceblue;
+    font-family: 'Qwitcher Grypen';
+}
+
+header a {
+    text-decoration: none;
+}
+
+section .menu {
+    display: block;
+}
+
+section #menu {
+    width: 7vw;
+    margin: 15px;
+}
+
+section #fechamenu {
+    width: 7vw;
+    margin: 15px;
+    display: none;
+}
+
+section .opcoes {
+    width: 45vw;
+    display: none;
+    flex-direction: column;
+    margin-left: 4vw;
+    background-color: #c8a3a0;
+}
+
+section h3 {
+    padding: 20px;
+    border-bottom: 2px solid #a0b1c8;
+}
+
+section a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 1vh;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100vh;
+    background-color: #c8a3a0;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+}
+
+.entradas #titulo-entrada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.img-produto {
+    width: 20vw;
+}
+
+.nome-descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-produto {
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+    height: min-content;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.descricao-produto{
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+
+.entradas { 
+    display: flex;
+    flex-direction: column;
+}
